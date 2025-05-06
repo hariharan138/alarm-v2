@@ -120,6 +120,6 @@ class WebSocketService {
 }
 
 // Create a singleton instance
-const wsService = new WebSocketService('ws://localhost:6060');
+const wsService = new WebSocketService('https://ws2relayserver.loca.lt');
 
 export default wsService;
